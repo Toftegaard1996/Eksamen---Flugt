@@ -11,7 +11,20 @@ function showResults(){}
 /*display quiz right away */
 buildQuiz(){
     const output = [];
-    myQuestions.forEach()
+    myQuestions.forEach(
+        (currentQuestion, questionNumner) => {
+          const answers = [];
+        for(letter in currentQuestion.answers){
+            answers.push(
+            `<label>
+            <input type="radio" name="questions"${questionNumber}" value="${letter}">
+            ${letter} :
+            ${currentQuestion.answers[letter]}
+            </label>`
+            );
+        }
+        }
+    );
 };
 
 /*on submit, show results */
