@@ -4,15 +4,32 @@ const quizContainer = document.querySelector('quiz');
 const resultContainer = document.querySelector('results');
 const submitButton = document.querySelector('submit');
 
-function buildQuiz(){}
 
 function showResults(){}
 
 /*display quiz right away */
-buildQuiz(){
+function buildQuiz(){
     const output = [];
-    myQuestions.forEach()
-};
+    myQuestions.forEach(
+        (currentQuestion, questionNumner) => {
+          const answers = [];
+        for(letter in currentQuestion.answers){
+            answers.push(
+            `<label>
+            <input type="radio" name="questions"${questionNumber}" value="${letter}">
+            ${letter} :
+            ${currentQuestion.answers[letter]}
+            </label>`
+            );
+        }
+            output.push(
+            `<div class="question"> ${currentQuestion.question} </div>
+            <div class="answers"> ${answers.join('')} </div>`
+            );
+        }
+    );
+    quizContainer.innerHTML = output.join('');
+}
 
 /*on submit, show results */
 submitButton.addEventListener('click', showResults);
