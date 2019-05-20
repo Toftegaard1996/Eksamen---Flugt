@@ -6,21 +6,27 @@ body {
 /* Startside med sprog*/
 .velkommen {
     text-decoration: underline;
-    margin: 10%;
+    padding-left: 10%;
+    text-size-adjust: 350%;
 }
 
 .sprog {
     text-decoration: underline;
+<<<<<<< HEAD
     margin:
+=======
+    padding-left: 20%;
+    padding-top: 30%;
+    text-size-adjust: 250%;
+>>>>>>> 86f0e8c2dffe302da9c027fc4de0ffa9cd898ffc
 }
-
-
 
 
 /*Login-side*/
 .logologin {
     width: 100%;
 }
+<<<<<<< HEAD
 
 .headline {
     color: #AE7227;
@@ -34,6 +40,26 @@ body {
     margin-top: 10%;
     font-size: 400%;
 }
+=======
+.headlinehistorietur{
+    color: #AE7227; 
+    margin-left: 25%;
+    font-size: 550%; 
+    margin-top: -8%; 
+    
+}
+
+.loginside{
+    margin-left: 38%;
+    margin-top: 10%; 
+    font-size: 420%; 
+} 
+>>>>>>> 86f0e8c2dffe302da9c027fc4de0ffa9cd898ffc
+
+ .labellogin{
+    font-size: 400%;
+}
+
 
 
 /* Spilleside*/
