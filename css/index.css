@@ -15,24 +15,28 @@ body{
 }
 
 
-
-
 /*Login-side*/
 .logologin{
     width: 100%;  
 }
-.headline{
+.headlinehistorietur{
     color: #AE7227; 
-    margin-left: 8%;
+    margin-left: 25%;
     font-size: 550%; 
-    margin-top: 20%; 
+    margin-top: -8%; 
+    
 }
 
 .loginside{
-    margin-left: 22%;
+    margin-left: 38%;
     margin-top: 10%; 
-    font-size: 400%; 
+    font-size: 420%; 
 } 
+
+ .labellogin{
+    font-size: 400%;
+}
+
 
 
 /* Spilleside*/
