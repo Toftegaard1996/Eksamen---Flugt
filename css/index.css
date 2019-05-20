@@ -1,15 +1,26 @@
-/* Startside med sprog*/
-
-
-
-
-
-/*Login-side*/
 body{
     background-color: #FFCF64;
     font-family: 'helvetica'; 
 }
 
+/* Startside med sprog*/
+.velkommen{
+    text-decoration: underline;
+    margin: 10%;
+}
+
+.sprog{
+    text-decoration: underline;
+    margin: 
+}
+
+
+
+
+/*Login-side*/
+.logologin{
+    width: 100%;  
+}
 .headline{
     color: #AE7227; 
     margin-left: 8%;
