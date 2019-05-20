@@ -1,3 +1,17 @@
 body{
-    background: #FFCF64;
+    background-color: #FFCF64; 
 }
+
+.headline{
+    color: #AE7227; 
+    margin-left: 8%;
+    font-size: 550%; 
+    margin-top: 20%; 
+}
+
+.loginside{
+    margin-left: 22%;
+    margin-top: 10%; 
+    font-size: 400%; 
+} 
+
