@@ -4,9 +4,6 @@ const quizContainer = document.querySelector('quiz');
 const resultContainer = document.querySelector('results');
 const submitButton = document.querySelector('submit');
 
-
-function showResults(){}
-
 /*display quiz right away */
 function buildQuiz(){
     const output = [];
@@ -29,6 +26,20 @@ function buildQuiz(){
         }
     );
     quizContainer.innerHTML = output.join('');
+}
+
+function showResults(){
+    const answerContainers = quizContainer.querySelectorAll('.answers');
+    let numCorret = 0;
+    myQuestions.forEach( (currentQuestion, qustionNumber) => {
+        const answerContainer = answerContainers[questionNumber];
+        const selector = 'input[name=question'+questionNumber+']:checked';
+        const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+        if(userAnswer===currentQuestion.correstAnswer){
+            numCorret++;
+        }
+    });
+    resultContainer.innerHTML = numCorret + 'out of' + myQuestions.length;
 }
 
 /*on submit, show results */
