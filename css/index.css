@@ -6,12 +6,15 @@ body{
 /* Startside med sprog*/
 .velkommen{
     text-decoration: underline;
-    margin: 10%;
+    padding-left: 10%;
+    text-size-adjust: 350%;
 }
 
 .sprog{
     text-decoration: underline;
-    margin: 
+    padding-left: 20%;
+    padding-top: 30%;
+    text-size-adjust: 250%;
 }
 
 
