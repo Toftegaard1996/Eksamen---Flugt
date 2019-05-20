@@ -1,38 +1,39 @@
-body{
+body {
     background-color: #FFCF64;
-    font-family: 'helvetica'; 
+    font-family: 'helvetica';
 }
 
 /* Startside med sprog*/
-.velkommen{
+.velkommen {
     text-decoration: underline;
     margin: 10%;
 }
 
-.sprog{
+.sprog {
     text-decoration: underline;
-    margin: 
+    margin:
 }
 
 
 
 
 /*Login-side*/
-.logologin{
-    width: 100%;  
-}
-.headline{
-    color: #AE7227; 
-    margin-left: 8%;
-    font-size: 550%; 
-    margin-top: 20%; 
+.logologin {
+    width: 100%;
 }
 
-.loginside{
+.headline {
+    color: #AE7227;
+    margin-left: 8%;
+    font-size: 550%;
+    margin-top: 20%;
+}
+
+.loginside {
     margin-left: 22%;
-    margin-top: 10%; 
-    font-size: 400%; 
-} 
+    margin-top: 10%;
+    font-size: 400%;
+}
 
 
 /* Spilleside*/
@@ -41,4 +42,9 @@ body{
 
 
 
-/* Feedback*/  
+/* Feedback*/
+
+
+.logo {
+    margin-left: 25%;
+}
