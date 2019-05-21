@@ -127,14 +127,25 @@ body{
 
 .knap10{
     position: absolute;
+    margin-left: 63%;
+    margin-top: 52%;
+    border-radius: 25px;
+    cursor: pointer;
 }
 
 .knap11{
     position: absolute;
+    margin-left: 88%;
+    margin-top: 11%;
+    border-radius: 25px;
+    cursor: pointer;
 }
 
 .knap12{
     position: absolute;
+    margin-left: 90%;
+    border-radius: 25px;
+    cursor: pointer;
 }
 
 /* Feedback*/
