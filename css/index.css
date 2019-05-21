@@ -24,62 +24,6 @@ body{
 
 
 /*Login-side*/
-.logologin {
-    width: 100%;
-}
-
-.headlinehistorietur{
-    color: #8B4513; 
-    margin-left: 25%;
-    font-size: 550%; 
-    margin-top: -8%;
-    margin-bottom: 10%; 
-    
-}
-
-.indtastkode{
-    margin-left: 10%; 
-    margin-top: 10%; 
-    font-size: 420%; 
-} 
-
-
- .labellogin {
-    font-size: 400%;
-    margin-left: 14%; 
-    margin-bottom: 10%; 
-}
-
-.loginbox{
-    width: 50%; 
-    height: auto; 
-    font-size: 400%; 
-    margin-left: 3%; 
-    margin-bottom: 8%; 
-    background-color: #BEBEBE; 
-    color: #AE7227; 
-}
-
-.boxaround{
-    border: 6px solid black;  
-    background-color: #8fbc8f;
-    margin:5%; 
-}
-
-.komigangknap{
-    width: 50%;
-    height: auto;
-    font-size: 300%; 
-    margin-left: 25%; 
-    margin-bottom: 10%; 
-}
-
-.billettekst{
-    font-size: 350%; 
-    text-align: center;
-    margin: 10%;
-    margin-top: 10%;
-}
 
 /* Spilleside*/
 
