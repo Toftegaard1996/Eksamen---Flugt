@@ -1,7 +1,10 @@
-body {
-    background-color: #FFCF64;
+body{
+    background-color: #ffffff;
     font-family: 'helvetica';
+    color: #8B4513; 
+
 }
+
 
 /* Startside med sprog*/
 .velkommen {
@@ -12,55 +15,15 @@ body {
 
 .sprog {
     text-decoration: underline;
-<<<<<<< HEAD
     margin:
-=======
     padding-left: 20%;
     padding-top: 30%;
     text-size-adjust: 250%;
->>>>>>> 86f0e8c2dffe302da9c027fc4de0ffa9cd898ffc
+
 }
 
 
 /*Login-side*/
-.logologin {
-    width: 100%;
-}
-<<<<<<< HEAD
-
-.headline {
-    color: #AE7227;
-    margin-left: 8%;
-    font-size: 550%;
-    margin-top: 20%;
-}
-
-.loginside {
-    margin-left: 22%;
-    margin-top: 10%;
-    font-size: 400%;
-}
-=======
-.headlinehistorietur{
-    color: #AE7227; 
-    margin-left: 25%;
-    font-size: 550%; 
-    margin-top: -8%; 
-    
-}
-
-.loginside{
-    margin-left: 38%;
-    margin-top: 10%; 
-    font-size: 420%; 
-} 
->>>>>>> 86f0e8c2dffe302da9c027fc4de0ffa9cd898ffc
-
- .labellogin{
-    font-size: 400%;
-}
-
-
 
 /* Spilleside*/
 
@@ -96,5 +59,26 @@ body {
 
 
 .logo {
-    margin-left: 25%;
+    margin-left: 24%;
+  
 }
+
+.div.box1 {
+    
+    box-sizing: 25%;
+}
+
+.feedbacktekst {
+ font-size: 250%;
+    box-shadow: 3px 3px 5px 5px;
+      padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+       
+}
+    
+     
+
+
+
