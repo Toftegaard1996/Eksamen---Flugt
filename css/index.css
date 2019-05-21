@@ -1,5 +1,5 @@
 body {
-    background-color: #FFCF64;
+    background-color: #FFFFFF;
     font-family: 'helvetica';
 }
 
@@ -93,17 +93,25 @@ body {
 
 .logo {
     margin-left: 24%;
+  
+}
+
+.div.box1 {
+    
+    box-sizing: 25%;
 }
 
 .feedbacktekst {
  font-size: 250%;
     box-shadow: 3px 3px 5px 5px;
-    
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-    
+      padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+       
+}
     
      
-}
+
+
+
