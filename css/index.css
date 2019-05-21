@@ -60,13 +60,16 @@ body{
 
 .logo {
     margin-left: 24%;
+    position: absolute;
   
 }
 
-.div.box1 {
-    
-    box-sizing: 25%;
+.baggrund {
+    height: 50%;
+    width: 100%;
+
 }
+
 
 .feedbacktekst {
  font-size: 250%;
@@ -75,10 +78,60 @@ body{
   border: 1px solid #BFBFBF;
   background-color: white;
   box-shadow: 10px 10px 5px #aaaaaa;
+    color: #000000; 
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    margin-top: 10%;
        
 }
 
+.feedbacktekst2 {
+    margin-top: 27%;
+    color:#000000;
+    font-size: 250%;
+    margin-left: 20%;
+}
 
+ /* contact feedbackform */
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical 
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: #000000;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 10%;
+  font-size: 170%;
+} 
 
     
      
