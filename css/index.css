@@ -12,13 +12,11 @@ body {
 
 .sprog {
     text-decoration: underline;
-<<<<<<< HEAD
-    margin:
-=======
-    padding-left: 20%;
+    <<<<<<< HEAD margin:
+        =======padding-left: 20%;
     padding-top: 30%;
     text-size-adjust: 250%;
->>>>>>> 86f0e8c2dffe302da9c027fc4de0ffa9cd898ffc
+    > > > > > > > 86f0e8c2dffe302da9c027fc4de0ffa9cd898ffc
 }
 
 
@@ -26,9 +24,8 @@ body {
 .logologin {
     width: 100%;
 }
-<<<<<<< HEAD
 
-.headline {
+<<<<<<< HEAD .headline {
     color: #AE7227;
     margin-left: 8%;
     font-size: 550%;
@@ -40,23 +37,22 @@ body {
     margin-top: 10%;
     font-size: 400%;
 }
-=======
-.headlinehistorietur{
-    color: #AE7227; 
+
+=======.headlinehistorietur {
+    color: #AE7227;
     margin-left: 25%;
-    font-size: 550%; 
-    margin-top: -8%; 
-    
+    font-size: 550%;
+    margin-top: -8%;
+
 }
 
-.loginside{
+.loginside {
     margin-left: 38%;
-    margin-top: 10%; 
-    font-size: 420%; 
-} 
->>>>>>> 86f0e8c2dffe302da9c027fc4de0ffa9cd898ffc
+    margin-top: 10%;
+    font-size: 420%;
+}
 
- .labellogin{
+> > > > > > > 86f0e8c2dffe302da9c027fc4de0ffa9cd898ffc .labellogin {
     font-size: 400%;
 }
 
@@ -72,5 +68,18 @@ body {
 
 
 .logo {
-    margin-left: 25%;
+    margin-left: 24%;
+}
+
+.feedbacktekst {
+ font-size: 250%;
+    box-shadow: 3px 3px 5px 5px;
+    
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    
+    
+     
 }
