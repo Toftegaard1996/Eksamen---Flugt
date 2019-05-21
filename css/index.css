@@ -5,18 +5,37 @@ body{
 
 /* Startside med sprog*/
 .velkommen{
-    text-decoration: underline;
     padding-left: 10%;
     text-size-adjust: 350%;
 }
 
 .sprog{
-    text-decoration: underline;
-    padding-left: 20%;
-    padding-top: 30%;
-    text-size-adjust: 250%;
+    padding-left: 30%;
+    padding-top: 20%;
+    text-size-adjust: 320%;
 }
 
+.flag{
+    margin-left:20%;
+    padding-top:10%;
+}
+
+.dansk{
+    width:20%;
+    padding-right: 10%;
+    margin-left: -14%;
+    margin-right: 10%;
+}
+
+.engelsk{
+    width:20%;
+    padding-right: 10%;
+    margin-right: 10%;
+}
+
+.tysk{
+    width:20%;
+}
 
 
 
