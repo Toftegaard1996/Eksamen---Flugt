@@ -30,19 +30,21 @@ body{
 
 .dansk{
     width: 20%;
-    padding-left: 10%;
-    box-shadow: 25px 33px #8888;
+    margin-left: 10%;
+    box-shadow: 25px 28px #8888;
     
 }
 
 .engelsk{
     width: 20%;
-    padding-left: 10%;
+    margin-left: 10%;
+    box-shadow: 25px 28px #8888;
 }
 
 .tysk{
     width: 20%;
-    padding-left: 10%;
+    margin-left: 10%;
+    box-shadow: 25px 28px #8888;
 }
 /*Login-side*/
 
