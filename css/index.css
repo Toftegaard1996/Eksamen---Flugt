@@ -7,22 +7,43 @@ body{
 
 
 /* Startside med sprog*/
+
+.logologin {
+    width: 100%;
+}
+
 .velkommen {
-    text-decoration: underline;
-    padding-left: 10%;
-    text-size-adjust: 350%;
+    padding-left: 7%;
+    text-size-adjust: 380%;
 }
 
 .sprog {
-    text-decoration: underline;
-    margin:
-    padding-left: 20%;
-    padding-top: 30%;
-    text-size-adjust: 250%;
-
+    padding-left: 30%;
+    padding-top: 15%;
+    text-size-adjust: 320%;
 }
 
+.flag{
+    margin-top: 15%;
+    margin-left: 0%;
+}
 
+.dansk{
+    width: 20%;
+    padding-left: 10%;
+    box-shadow: 25px 33px #8888;
+    
+}
+
+.engelsk{
+    width: 20%;
+    padding-left: 10%;
+}
+
+.tysk{
+    width: 20%;
+    padding-left: 10%;
+}
 /*Login-side*/
 
 /* Spilleside*/
