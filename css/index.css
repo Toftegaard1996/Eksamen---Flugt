@@ -7,33 +7,81 @@ body {
 
 
 /* Startside med sprog*/
+
+.logologin {
+    width: 100%;
+}
+
 .velkommen {
-    text-decoration: underline;
-    padding-left: 10%;
-    text-size-adjust: 350%;
+    padding-left: 7%;
+    text-size-adjust: 380%;
 }
 
 .sprog {
+
     text-decoration: underline;
     margin:
         padding-left: 20%;
     padding-top: 30%;
     text-size-adjust: 250%;
-
+    padding-left: 30%;
+    padding-top: 15%;
+    text-size-adjust: 320%;
 }
 
 
+.flag{
+    margin-top: 15%;
+    margin-left: 0%;
+}
+
+.dansk{
+    width: 20%;
+    margin-left: 10%;
+    box-shadow: 25px 28px #8888;
+    
+}
+
+.engelsk{
+    width: 20%;
+    margin-left: 10%;
+    box-shadow: 25px 28px #8888;
+}
+
+.tysk{
+    width: 20%;
+    margin-left: 10%;
+    box-shadow: 25px 28px #8888;
+}
 /*Login-side*/
 
 /* Spilleside*/
+.kort{
+    width: 100%;
+    position: absolute;
+}
+
 
 .question {
     font-weight: 600;
+
+.knap1{
+    position: absolute;
+    margin-left: 75.5%;
+    margin-top: 10%;
+    cursor: pointer;
+    border-radius: 25px;
+
 }
 
-.answers {
-    margin-bottom: 20px;
+.knap2{
+    position: absolute;
+    margin-left: 62.5%;
+    margin-top: 14%;
+    border-radius: 25px;
+    cursor: pointer;
 }
+
 
 .answers label {
     display: block;
@@ -45,15 +93,90 @@ body {
     color: #fff;
     border: 0px;
     border-radius: 20px;
+ 
+.knap3{
+    position: absolute;
+    margin-left: 36%;
+    margin-top: 33%;
+    border-radius: 25px;
     cursor: pointer;
-    margin-bottom: 20px;
 }
+
+.knap4{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 27%;
+    border-radius: 25px;
+
+    cursor: pointer;
+}
+
 
 .submit:hover {
     background-color: #38a;
+
+.knap5{
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 18%;
+    border-radius: 25px;
+    cursor: pointer;
+
 }
 
+.knap6{
+    position: absolute;
+    margin-top: 31%;
+    border-radius: 25px;
+    cursor: pointer;
+}
 
+.knap7{
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 41%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.knap8{
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 45.5%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.knap9{
+    position: absolute;
+    margin-left: 47%;
+    margin-top: 55%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.knap10{
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 52%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.knap11{
+    position: absolute;
+    margin-left: 88%;
+    margin-top: 11%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.knap12{
+    position: absolute;
+    margin-left: 90%;
+    border-radius: 25px;
+    cursor: pointer;
+}
 
 /* Feedback */
 
@@ -73,6 +196,7 @@ body {
 
 
 .feedbacktekst {
+
     font-size: 300%;
     box-shadow: 3% 3% 5% 5%;
     padding: 10% 10% 20% 10%;
@@ -138,3 +262,12 @@ input[type=submit]:hover {
     box-shadow: 5px 10px 40px #aaaaaa;
     background-color: #fbfbf0;
 }
+
+ font-size: 250%;
+    box-shadow: 3px 3px 5px 5px;
+      padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
