@@ -42,6 +42,19 @@ function showResults(){
     resultContainer.innerHTML = numCorret + 'out of' + myQuestions.length;
 }
 
+const answerContainers = quizContainer.querySelectorAll('.answer');
+
+let numCorrent = 0;
+
+myQuestions.forEach((currentQuestion, questionNumber) => {
+    const answerContainer = answerContainers[questionNumber];
+    const selector = 'input[name=question'${questionNumber}']:checked';
+    const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+    if(userAnswer===currentQuestion.correstAnswer){
+        numCorrent++;
+    }
+});
+
 /*on submit, show results */
 submitButton.addEventListener('click', showResults);
 
