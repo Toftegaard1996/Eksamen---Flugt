@@ -1,7 +1,9 @@
 body{
-    background-color: #FFCF64;
-    font-family: 'helvetica'; 
+    background-color: #ffffff;
+    font-family: 'helvetica';
+    color: #8B4513; 
 }
+
 
 /* Startside med sprog*/
 .velkommen{
@@ -23,25 +25,56 @@ body{
     width: 100%;  
 }
 .headlinehistorietur{
-    color: #AE7227; 
+    color: #8B4513; 
     margin-left: 25%;
     font-size: 550%; 
-    margin-top: -8%; 
+    margin-top: -8%;
+    margin-bottom: 10%; 
     
 }
 
-.loginside{
-    margin-left: 38%;
+.indtastkode{
+    margin-left: 10%; 
     margin-top: 10%; 
     font-size: 420%; 
 } 
 
  .labellogin{
     font-size: 400%;
+    margin-left: 14%; 
+    margin-bottom: 10%; 
 }
 
+.loginbox{
+    width: 50%; 
+    height: auto; 
+    font-size: 400%; 
+    margin-left: 3%; 
+    margin-bottom: 8%; 
+    background-color: #BEBEBE; 
+    color: #AE7227; 
+}
 
+.boxaround{
+    border: 6px solid black;  
+    background-color: #8fbc8f;
+    margin:5%; 
+}
 
+.komigangknap{
+    width: 50%;
+    height: auto;
+    font-size: 300%; 
+    margin-left: 25%; 
+    margin-bottom: 10%; 
+}
+
+.billettekst{
+    font-size: 350%; 
+    text-align: center;
+    margin: 10%;
+    margin-top: 10%;
+}
 /* Spilleside*/
 
 
