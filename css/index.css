@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 body{
     background-color: #ffffff;
     font-family: 'helvetica';
     color: #8B4513; 
-=======
-body {
-    background-color: #FFFFFF;
-    font-family: 'helvetica';
->>>>>>> 0d119774a8d904739ded628d573c37879573ce34
+
 }
 
 
@@ -20,11 +15,11 @@ body {
 
 .sprog {
     text-decoration: underline;
-    <<<<<<< HEAD margin:
-        =======padding-left: 20%;
+    margin:
+    padding-left: 20%;
     padding-top: 30%;
     text-size-adjust: 250%;
-    > > > > > > > 86f0e8c2dffe302da9c027fc4de0ffa9cd898ffc
+
 }
 
 
@@ -32,7 +27,7 @@ body {
 .logologin {
     width: 100%;
 }
-<<<<<<< HEAD
+
 .headlinehistorietur{
     color: #8B4513; 
     margin-left: 25%;
@@ -47,37 +42,9 @@ body {
     margin-top: 10%; 
     font-size: 420%; 
 } 
-=======
 
-<<<<<<< HEAD .headline {
-    color: #AE7227;
-    margin-left: 8%;
-    font-size: 550%;
-    margin-top: 20%;
-}
 
-.loginside {
-    margin-left: 22%;
-    margin-top: 10%;
-    font-size: 400%;
-}
-
-=======.headlinehistorietur {
-    color: #AE7227;
-    margin-left: 25%;
-    font-size: 550%;
-    margin-top: -8%;
-
-}
-
-.loginside {
-    margin-left: 38%;
-    margin-top: 10%;
-    font-size: 420%;
-}
->>>>>>> 0d119774a8d904739ded628d573c37879573ce34
-
-> > > > > > > 86f0e8c2dffe302da9c027fc4de0ffa9cd898ffc .labellogin {
+ .labellogin {
     font-size: 400%;
     margin-left: 14%; 
     margin-bottom: 10%; 
@@ -113,6 +80,7 @@ body {
     margin: 10%;
     margin-top: 10%;
 }
+
 /* Spilleside*/
 
 .question{
