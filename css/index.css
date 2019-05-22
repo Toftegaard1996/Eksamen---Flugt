@@ -21,24 +21,27 @@ body {
 }
 
 .velkommen {
-    padding-left: 7%;
-    text-size-adjust: 380%;
-    margin-top: 20%;
+    position: absolute;
+    margin-left: 7%;
+    font-size: 420%;
+    margin-top: 25%;
 }
 
 .sprog {
+    position: absolute;
     padding-left: 30%;
-    padding-top: 15%;
-    text-size-adjust: 320%;
+    margin-top: 55%;
+    font-size: 350%;
 }
 
 
 .flag{
-    margin-top: 15%;
+    margin-top: 85%;
     margin-left: 0%;
 }
 
 .dansk{
+    position: absolute;
     width: 20%;
     margin-left: 10%;
     box-shadow: 25px 28px #8888;
@@ -46,17 +49,47 @@ body {
 }
 
 .engelsk{
+    position: absolute;
     width: 20%;
-    margin-left: 10%;
+    margin-left: 40%;
     box-shadow: 25px 28px #8888;
 }
 
 .tysk{
+    position: absolute;
     width: 20%;
-    margin-left: 10%;
+    margin-left: 70%;
     box-shadow: 25px 28px #8888;
 }
 
+.danskflag{
+   visibility: hidden;
+    height: 0%;
+}
+
+.engelskflag{
+    
+    height: 0%;
+}
+
+.welcome{
+    position: absolute;
+    font-size: 420%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.language{
+    position: absolute;
+    font-size: 350%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.tyskflag{
+   visibility: hidden;
+    height: 0%;
+}
 
 /*Login-side*/
 
