@@ -61,6 +61,17 @@ body {
 /*Login-side*/
 
 /* Spilleside*/
+
+.logoquiz{
+    position: absolute;
+    width: 50%;
+    margin: 0 23.5%;
+}
+
+.baggrundquiz{
+    margin-bottom: 10%;
+}
+
 .kort{
     width: 100%;
     position: absolute;
@@ -173,8 +184,6 @@ body {
 .logo {
     margin-left: 24%;
     position: absolute;
-
-
 }
 
 .baggrund {
