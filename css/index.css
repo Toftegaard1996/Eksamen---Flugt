@@ -62,9 +62,6 @@ body {
 }
 
 
-.question {
-    font-weight: 600;
-
 .knap1{
     position: absolute;
     margin-left: 75.5%;
@@ -83,16 +80,6 @@ body {
 }
 
 
-.answers label {
-    display: block;
-}
-
-.subtmit {
-    font-size: 20px;
-    background-color: #279;
-    color: #fff;
-    border: 0px;
-    border-radius: 20px;
  
 .knap3{
     position: absolute;
@@ -111,9 +98,6 @@ body {
     cursor: pointer;
 }
 
-
-.submit:hover {
-    background-color: #38a;
 
 .knap5{
     position: absolute;
