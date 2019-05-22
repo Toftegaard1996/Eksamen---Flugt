@@ -7,23 +7,26 @@ body {
 
 
 /* Startside med sprog*/
+.baggrundlogin {
+     height: 50%;
+     width: 100%;
+    
+}
 
 .logologin {
-    width: 100%;
+    position: absolute;
+    width: 50%;
+    margin: 24%;
+    margin-top: -24%;
 }
 
 .velkommen {
     padding-left: 7%;
     text-size-adjust: 380%;
+    margin-top: 20%;
 }
 
 .sprog {
-
-    text-decoration: underline;
-    margin:
-        padding-left: 20%;
-    padding-top: 30%;
-    text-size-adjust: 250%;
     padding-left: 30%;
     padding-top: 15%;
     text-size-adjust: 320%;
@@ -53,6 +56,8 @@ body {
     margin-left: 10%;
     box-shadow: 25px 28px #8888;
 }
+
+
 /*Login-side*/
 
 /* Spilleside*/
