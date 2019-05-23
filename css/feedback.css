@@ -85,11 +85,17 @@ input[type=submit]:hover {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 19%;
-    font-size: 250%;
+    font-size: 290%;
     box-shadow: 5px 10px 40px #aaaaaa;
     background-color: #fbfbf0;
+    
 }
 
+
+
 .tilbageknapfeedback {
+    margin-top: 31%;
+    margin-left: 5%;
+    
     
 }
