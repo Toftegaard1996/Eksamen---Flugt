@@ -38,3 +38,17 @@ function check(){
 function tilbage() {
     window.location.href = 'index.html';
 }
+
+/*index*/
+
+function danskflag() {
+    window.location.href = 'login.html'
+}
+
+function engelskflag() {
+    window.location.href = 'login.html'
+}
+
+function tyskflag() {
+    window.location.href = 'login.html'
+}
