@@ -29,7 +29,7 @@ body {
 
 .sprog {
     position: absolute;
-    padding-left: 30%;
+    margin-left: 30%;
     margin-top: 55%;
     font-size: 350%;
 }
@@ -75,20 +75,34 @@ body {
 .welcome{
     position: absolute;
     font-size: 420%;
-    margin-left: 20%;
-    margin-top: 10%;
+    margin-left: 13%;
+    margin-top: 25%;
 }
 
 .language{
     position: absolute;
     font-size: 350%;
     margin-left: 20%;
-    margin-top: 20%;
+    margin-top: 55%;
 }
 
 .tyskflag{
-   visibility: hidden;
+    visibility: hidden;
     height: 0%;
+}
+
+.willkommen{
+    position: absolute;
+    font-size: 420%;
+    margin-left: 13%;
+    margin-top: -65%;
+}
+
+.sprache{
+    position: absolute;
+    font-size: 350%;
+    margin-left: 25%;
+    margin-top: -45%;
 }
 
 /*Login-side*/
