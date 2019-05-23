@@ -3,6 +3,10 @@ function tilbagequiz() {
     window.location.href = 'login.html';
 }
 
+
+
+/* Under konstruktion, men virker ikke lige nu. Der er blevet fulgt en guide på Youtube: https://www.youtube.com/watch?v=C7NsIRhoWuE */
+
 function check(){
     let question1 = document.quiz.question1.value;
     let question2 = document.quiz.question2.value;
@@ -12,22 +16,22 @@ function check(){
     let question6 = document.quiz.question6.value;
     let correct = 0;
     
-    if(question1 == "1"){
+    if(question1 == "right"){
         correct++;
     }
-    if(question2 == "1"){
+    if(question2 == "right"){
         correct++;
     }
-    if(question3 == "1"){
+    if(question3 == "right"){
         correct++;
     }
-    if(question4 == "1"){
+    if(question4 == "right"){
         correct++;
     }
-    if(question5 == "1"){
+    if(question5 == "right"){
         correct++;
     }
-    if(question6 == "1"){
+    if(question6 == "right"){
         correct++;
     }
     document.getElementById("number_correct").innerHTML = "Du fik " + correct + " rigtige ud af 6"
