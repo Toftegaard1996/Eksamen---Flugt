@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <html lang="da">
         <head>
-            <link rel="stylesheet" href="css/index.css"> 
+            <link rel="stylesheet" href="css/quiz.css"> 
             <title> Flugt - Oplev lejren der var
             </title>
             <script src="javascript/flugt.js">
@@ -43,15 +43,15 @@
              </div>
              <form class="spørgsmål1">
                  <h2>Hvor mange flygtninge boede der cirka i lejr samfundet ved Oksbøl?</h2>
-                    <label for="var_string"><input type="radio" name="svarmulighed" value="0" id="var_string" />25.000</label>
-                    <label for="var_join"><input type="radio" name="svarmulighed" value="0" id="var_join" />30.000</label>
-                    <label for="var_info"><input type="radio" name="svarmulighed" value="1" id="var_info" />35.000</label>
+                    <input type="radio" name="svarmulighed" value="0" id="var_string" />25.000
+                    <input type="radio" name="svarmulighed" value="0" id="var_join" />30.000
+                    <input type="radio" name="svarmulighed" value="1" id="var_info" />35.000
              </form>
              <form class="spørgsmål2">
                     <h2>Hvor længe stod lejren efter krigen?</h2>
-                    <label for="var_string"><input type="radio" name="svarmulighed" value="1" id="var_string" />4 år</label>
-                    <label for="var_join"><input type="radio" name="svarmulighed" value="0" id="var_join" />6 år</label>
-                    <label for="var_info"><input type="radio" name="svarmulighed" value="0" id="var_info" />8 år</label>
+                    <input type="radio" name="svarmulighed" value="1" id="var_string" />4 år
+                    <input type="radio" name="svarmulighed" value="0" id="var_join" />6 år
+                    <input type="radio" name="svarmulighed" value="0" id="var_info" />8 år
              </form>
              <form class="spørgsmål3">
                   <h2>Hvem var primært i lejren?</h2>
@@ -77,7 +77,9 @@
                     <label for="var_join"><input type="radio" name="svarmulighed" value="0" id="var_join" />1700</label>
                     <label for="var_info"><input type="radio" name="svarmulighed" value="0" id="var_info" />2300</label>
              </form>
-             <p>Du fik: <span id="grade">__</span></p>
+             <button type="submit" value="Submit">Afslut
+             </button>
+             <p>Du fik: <span id="grade">__</span>rigtige</p>
             <p id="grade2"></p>
             
             
