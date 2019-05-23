@@ -14,7 +14,9 @@
             
             
             <div class="kortKnapper">
+               
                 <img src="billeder/kortoveroksbol2.png" alt="kort over Oksbøl" class="kort">
+            
 
                 <button onclick="knap1()" class="knap1"
                  type="button">1</button>
@@ -40,6 +42,8 @@
                  type="button">11</button>
                  <button onclick="" class="knap12"
                  type="button">12</button>
+                 <h4>Velkommen! For hver post er der et spørgsmål, svar rigtig på så mange som mulig og se om du kan vinde noget. Du kan tage posterne i rækkefølge eller tilfældigt. Klik på et tal for at gå i gang.</h4>
+                
              </div>
              <form id="quiz" name="quiz">
              <div class="spørgsmål1">
@@ -82,14 +86,15 @@
                     <p><input type="radio" name="question6" value="right" id="mc" />1100</p>
                     <p><input type="radio" name="question6" value="wrong" id="mc" />1700</p>
                     <p><input type="radio" name="question6" value="wrong" id="mc" />2300</p>
-                    <button class="next" onclick="spørgsmål6()" type="button">Afslut</button>
+                    <button class="next" onclick="check()" type="button">Resultat</button>
              </div>
             </form>
              
-             <button type="button" class="done" onclick="check()">Afslut
-             </button>
-            <div id="after_submit">
-                <p id="number_correct"></p>
+            
+            <div class="after_submit">
+                <h3 class="number_correct"></h3>
+                <button class="done" onclick="feedback()" type="button">Afslut</button>
+                <p>Vi håber du har nydt din tur rundt i lejren. Du kan tjekke dit resultat oppe i kiosken for at se om du har vundet noget. Vi håber vi ses igen</p>
             </div>
             
             <button class="tilbagepil" onclick="tilbagequiz()" type="button">
