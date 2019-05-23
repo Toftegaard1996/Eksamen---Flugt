@@ -1,7 +1,7 @@
 body {
     background-color: #f5efdc;
     font-family: 'helvetica';
-    color: #8B4513;
+    color: black;
 
 }
 
@@ -20,6 +20,12 @@ body {
     margin-top: -24%;
 }
 
+/* Billede af flagene */
+#flag{
+    margin-top: 85%;
+    margin-left: 0%;
+}
+
 .velkommen {
     position: absolute;
     margin-left: 7%;
@@ -29,67 +35,13 @@ body {
 
 .sprog {
     position: absolute;
-    padding-left: 30%;
+    margin-left: 30%;
     margin-top: 55%;
     font-size: 350%;
 }
 
 
-.flag{
-    margin-top: 85%;
-    margin-left: 0%;
-}
 
-.dansk{
-    position: absolute;
-    width: 20%;
-    margin-left: 10%;
-    box-shadow: 25px 28px #8888;
-    
-}
-
-.engelsk{
-    position: absolute;
-    width: 20%;
-    margin-left: 40%;
-    box-shadow: 25px 28px #8888;
-}
-
-.tysk{
-    position: absolute;
-    width: 20%;
-    margin-left: 70%;
-    box-shadow: 25px 28px #8888;
-}
-
-.danskflag{
-   visibility: hidden;
-    height: 0%;
-}
-
-.engelskflag{
-    
-    height: 0%;
-}
-
-.welcome{
-    position: absolute;
-    font-size: 420%;
-    margin-left: 20%;
-    margin-top: 10%;
-}
-
-.language{
-    position: absolute;
-    font-size: 350%;
-    margin-left: 20%;
-    margin-top: 20%;
-}
-
-.tyskflag{
-   visibility: hidden;
-    height: 0%;
-}
 
 /*Login-side*/
 
@@ -247,10 +199,6 @@ body {
     font-size: 36px;
 }
 
-
-
-<<<<<<< HEAD
-=======
 .logo {
     margin-left: 24%;
     position: absolute;
@@ -339,4 +287,3 @@ input[type=submit]:hover {
   box-shadow: 10px 10px 5px #aaaaaa;
 }
 
->>>>>>> d941bd016e7b8b8493780d2bcdf698d6b2c7d6bd
