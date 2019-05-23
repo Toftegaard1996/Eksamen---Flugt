@@ -19,19 +19,52 @@
 
 }
 
+.tpil{
+    font-size: 200%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
 .pil {
-    margin-top: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
     
 }
 
+.htmlkode{
+    font-size: 200%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
 .html {
-    margin-top: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.csskode{
+    font-size: 200%;
+    margin-left: 40%;
+    margin-top: 10%;
 }
 
 .css {
-    margin-top: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.javascriptkode{
+    font-size: 200%;
+    margin-left: 40%;
+    margin-top: 10%;
 }
 
 .javascript {
-    margin-top: 20%;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.lavet{
+    margin-top: 5%;
+    text-align: center;
 }
