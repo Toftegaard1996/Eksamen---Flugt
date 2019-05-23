@@ -6,6 +6,7 @@ function tilbage() {
     window.location.href = 'index.html'; 
 }
 
+let indtastKode = ['']; 
 
 
 
