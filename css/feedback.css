@@ -1,7 +1,7 @@
 body {
     background-color: #f5efdc;
     font-family: 'helvetica';
-    color: #ffffff;
+    color: #000000;
 
 }
 
@@ -10,7 +10,10 @@ body {
 
 .logo {
     margin-left: 24%;
+    margin-top: 50%;
     position: absolute;
+    
+   
 
 
 }
