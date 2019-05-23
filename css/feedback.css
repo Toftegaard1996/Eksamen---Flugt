@@ -92,10 +92,19 @@ input[type=submit]:hover {
 }
 
 
-
 .tilbageknapfeedback {
     margin-top: 31%;
     margin-left: 5%;
     
+}
+
+.popup { 
+    font-size: 230%;
+    margin-left: 50%;
+    color: #000000;
+    visibility: hiddenf;
+    
     
 }
+
+ 

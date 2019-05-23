@@ -8,3 +8,6 @@ function tilbagequiz() {
 function tilbage() {
     window.location.href = 'index.html';
 }
+
+function tak() {
+  let getTak =document.querySelector(".popup") .style.visibility="visible";
