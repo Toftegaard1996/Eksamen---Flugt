@@ -18,7 +18,7 @@ body {
 .baggrund {
     height: 50%;
     width: 100%;
-    
+
 }
 
 
@@ -66,7 +66,7 @@ input[type=submit] {
     border-radius: 4%;
     cursor: pointer;
     font-size: 90%;
-     box-shadow: 2px 8px 40px #aaaaaa;  
+    box-shadow: 2px 8px 40px #aaaaaa;
 
 }
 
@@ -88,14 +88,31 @@ input[type=submit]:hover {
     font-size: 290%;
     box-shadow: 5px 10px 40px #aaaaaa;
     background-color: #fbfbf0;
-    
+
 }
 
 
 
+
 .tilbageknapfeedback {
-    margin-top: 31%;
+    margin-top: 29%;
     margin-left: 5%;
     
+
+}
+
+.popup {
+    font-size: 250%;
+    margin-left: 40%;
+    margin-right: 5%;
+    border-radius: 2%;
+    color: #000000;
+    background-color: #fbfbf0;
+    padding: 3%;
+    visibility: hidden;
+    box-shadow: 5px 10px 40px #aaaaaa;
+    margin-top: -10%;
     
+
+
 }
