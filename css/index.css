@@ -117,6 +117,8 @@ body {
 
 .baggrundquiz{
     margin-bottom: 10%;
+    width: 100%;
+    
 }
 
 .kort{
@@ -127,107 +129,142 @@ body {
 
 .knap1{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-left: 75.5%;
     margin-top: 10%;
     cursor: pointer;
     border-radius: 25px;
-
+    font-size: 36px;
 }
 
 .knap2{
     position: absolute;
-    margin-left: 62.5%;
-    margin-top: 14%;
+    height: 50px;
+    width: 50px;
+    margin-left: 62%;
+    margin-top: 13.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 
  
 .knap3{
     position: absolute;
-    margin-left: 36%;
-    margin-top: 33%;
+    height: 50px;
+    width: 50px;
+    margin-left: 35.5%;
+    margin-top: 32.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap4{
     position: absolute;
-    margin-left: 20%;
-    margin-top: 27%;
+    height: 50px;
+    width: 50px;
+    margin-left: 19.5%;
+    margin-top: 26.5%;
     border-radius: 25px;
-
     cursor: pointer;
+    font-size: 36px;
 }
 
 
 .knap5{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-left: 3%;
     margin-top: 18%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 
 }
 
 .knap6{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-top: 31%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap7{
     position: absolute;
-    margin-left: 24%;
-    margin-top: 41%;
+    height: 50px;
+    width: 50px;
+    margin-left: 23.5%;
+    margin-top: 40.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap8{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-left: 34%;
-    margin-top: 45.5%;
+    margin-top: 45%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap9{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-left: 47%;
-    margin-top: 55%;
+    margin-top: 54.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap10{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-left: 63%;
     margin-top: 52%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap11{
     position: absolute;
-    margin-left: 88%;
-    margin-top: 11%;
+    height: 50px;
+    width: 50px;
+    margin-left: 88.5%;
+    margin-top: 10.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap12{
     position: absolute;
-    margin-left: 90%;
+    height: 50px;
+    width: 50px;
+    margin-left: 90.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
-/* Feedback */
 
 
+<<<<<<< HEAD
+=======
 .logo {
     margin-left: 24%;
     position: absolute;
@@ -316,3 +353,4 @@ input[type=submit]:hover {
   box-shadow: 10px 10px 5px #aaaaaa;
 }
 
+>>>>>>> d941bd016e7b8b8493780d2bcdf698d6b2c7d6bd
