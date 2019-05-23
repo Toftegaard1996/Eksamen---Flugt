@@ -1,0 +1,70 @@
+.logo {
+    margin-left: 30%;
+    position: absolute;
+
+
+}
+
+.baggrund {
+    height: 50%;
+    width: 100%;
+
+}
+
+
+
+.farvekoder {
+    width: 45%;
+    margin-left: 27%;
+
+}
+
+.tpil{
+    font-size: 200%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.pil {
+    margin-top: 5%;
+    margin-left: 40%;
+    
+}
+
+.htmlkode{
+    font-size: 200%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.html {
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.csskode{
+    font-size: 200%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.css {
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.javascriptkode{
+    font-size: 200%;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.javascript {
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.lavet{
+    margin-top: 5%;
+    text-align: center;
+}
