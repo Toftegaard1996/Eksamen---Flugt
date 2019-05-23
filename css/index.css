@@ -7,35 +7,41 @@ body {
 
 
 /* Startside med sprog*/
+.baggrundlogin {
+     height: 50%;
+     width: 100%;
+    
+}
 
 .logologin {
-    width: 100%;
+    position: absolute;
+    width: 50%;
+    margin: 24%;
+    margin-top: -24%;
 }
 
 .velkommen {
-    padding-left: 7%;
-    text-size-adjust: 380%;
+    position: absolute;
+    margin-left: 7%;
+    font-size: 420%;
+    margin-top: 25%;
 }
 
 .sprog {
-
-    text-decoration: underline;
-    margin:
-        padding-left: 20%;
-    padding-top: 30%;
-    text-size-adjust: 250%;
+    position: absolute;
     padding-left: 30%;
-    padding-top: 15%;
-    text-size-adjust: 320%;
+    margin-top: 55%;
+    font-size: 350%;
 }
 
 
 .flag{
-    margin-top: 15%;
+    margin-top: 85%;
     margin-left: 0%;
 }
 
 .dansk{
+    position: absolute;
     width: 20%;
     margin-left: 10%;
     box-shadow: 25px 28px #8888;
@@ -43,140 +49,294 @@ body {
 }
 
 .engelsk{
+    position: absolute;
     width: 20%;
-    margin-left: 10%;
+    margin-left: 40%;
     box-shadow: 25px 28px #8888;
 }
 
 .tysk{
+    position: absolute;
     width: 20%;
-    margin-left: 10%;
+    margin-left: 70%;
     box-shadow: 25px 28px #8888;
 }
+
+.danskflag{
+   visibility: hidden;
+    height: 0%;
+}
+
+.engelskflag{
+    
+    height: 0%;
+}
+
+.welcome{
+    position: absolute;
+    font-size: 420%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.language{
+    position: absolute;
+    font-size: 350%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.tyskflag{
+   visibility: hidden;
+    height: 0%;
+}
+
 /*Login-side*/
 
 /* Spilleside*/
+
+.logoquiz{
+    position: absolute;
+    width: 50%;
+    margin: 0 23.5%;
+}
+
+.baggrundquiz{
+    margin-bottom: 10%;
+    width: 100%;
+    
+}
+
 .kort{
     width: 100%;
     position: absolute;
 }
 
 
-.question {
-    font-weight: 600;
-
 .knap1{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-left: 75.5%;
     margin-top: 10%;
     cursor: pointer;
     border-radius: 25px;
-
+    font-size: 36px;
 }
 
 .knap2{
     position: absolute;
-    margin-left: 62.5%;
-    margin-top: 14%;
+    height: 50px;
+    width: 50px;
+    margin-left: 62%;
+    margin-top: 13.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 
-.answers label {
-    display: block;
-}
-
-.subtmit {
-    font-size: 20px;
-    background-color: #279;
-    color: #fff;
-    border: 0px;
-    border-radius: 20px;
  
 .knap3{
     position: absolute;
-    margin-left: 36%;
-    margin-top: 33%;
+    height: 50px;
+    width: 50px;
+    margin-left: 35.5%;
+    margin-top: 32.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap4{
     position: absolute;
-    margin-left: 20%;
-    margin-top: 27%;
+    height: 50px;
+    width: 50px;
+    margin-left: 19.5%;
+    margin-top: 26.5%;
     border-radius: 25px;
-
     cursor: pointer;
+    font-size: 36px;
 }
 
 
-.submit:hover {
-    background-color: #38a;
-
 .knap5{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-left: 3%;
     margin-top: 18%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 
 }
 
 .knap6{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-top: 31%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap7{
     position: absolute;
-    margin-left: 24%;
-    margin-top: 41%;
+    height: 50px;
+    width: 50px;
+    margin-left: 23.5%;
+    margin-top: 40.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap8{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-left: 34%;
-    margin-top: 45.5%;
+    margin-top: 45%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap9{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-left: 47%;
-    margin-top: 55%;
+    margin-top: 54.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap10{
     position: absolute;
+    height: 50px;
+    width: 50px;
     margin-left: 63%;
     margin-top: 52%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap11{
     position: absolute;
-    margin-left: 88%;
-    margin-top: 11%;
+    height: 50px;
+    width: 50px;
+    margin-left: 88.5%;
+    margin-top: 10.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 .knap12{
     position: absolute;
-    margin-left: 90%;
+    height: 50px;
+    width: 50px;
+    margin-left: 90.5%;
     border-radius: 25px;
     cursor: pointer;
+    font-size: 36px;
 }
 
 
 
+<<<<<<< HEAD
+=======
+.logo {
+    margin-left: 24%;
+    position: absolute;
+}
+
+.baggrund {
+    height: 50%;
+    width: 100%;
+    
+}
+
+
+.feedbacktekst {
+
+    font-size: 300%;
+    box-shadow: 3% 3% 5% 5%;
+    padding: 10% 10% 20% 10%;
+    border: 1px solid #BFBFBF;
+    background-color: #fbfbf0;
+    box-shadow: 5px 10px 40px #aaaaaa;
+    color: #000000;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    margin-top: 15%;
+    border-radius: 3%;
+    border: none;
+
+}
+
+
+/* feedbackform */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12%;
+    border: solid #ccc;
+    border-radius: 2%;
+    box-sizing: border-box;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    resize: vertical
+}
+
+/* send */
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: #000000;
+    padding: 5% 10%;
+    border: none;
+    border-radius: 4%;
+    cursor: pointer;
+    font-size: 90%;
+     box-shadow: 2px 8px 40px #aaaaaa;  
+
+}
+
+/* trykker på knappen send */
+
+input[type=submit]:hover {
+    background-color: #4CAF58;
+}
+
+
+
+.container {
+    border-radius: 2%;
+    padding: 2%;
+    color: #000000;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 19%;
+    font-size: 250%;
+    box-shadow: 5px 10px 40px #aaaaaa;
+    background-color: #fbfbf0;
+}
+
+ font-size: 250%;
+    box-shadow: 3px 3px 5px 5px;
+      padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+>>>>>>> d941bd016e7b8b8493780d2bcdf698d6b2c7d6bd
