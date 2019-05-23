@@ -16,17 +16,17 @@
             <div class="kortKnapper">
                 <img src="billeder/kortoveroksbol2.png" alt="kort over Oksbøl" class="kort">
 
-                <button onclick="" class="knap1"
+                <button onclick="knap1()" class="knap1"
                  type="button">1</button>
-                 <button onclick="" class="knap2"
+                 <button onclick="knap2()" class="knap2"
                  type="button">2</button>
-                 <button onclick="" class="knap3"
+                 <button onclick="knap3()" class="knap3"
                  type="button">3</button>
-                 <button onclick="" class="knap4"
+                 <button onclick="knap4()" class="knap4"
                  type="button">4</button>
-                 <button onclick="" class="knap5"
+                 <button onclick="knap5()" class="knap5"
                  type="button">5</button>
-                 <button onclick="" class="knap6"
+                 <button onclick="knap6()" class="knap6"
                  type="button">6</button>
                  <button onclick="" class="knap7"
                  type="button">7</button>
@@ -47,42 +47,42 @@
                     <p><input type="radio" name="question1" value="wrong" id="mc" />25.000</p>
                     <p><input type="radio" name="question1" value="wrong" id="mc" />30.000</p>
                     <p><input type="radio" name="question1" value="right" id="mc" />35.000</p>
-                    <button class="next" onclick="" type="button">Næste</button>
+                    <button class="next" onclick="spørgsmål1()" type="button">Næste</button>
              </div>
              <div class="spørgsmål2">
                     <h2 class="spørgsmål">Hvor længe stod lejren efter krigen?</h2>
                     <p><input type="radio" name="question2" value="right" id="mc" />4 år</p>
                     <p><input type="radio" name="question2" value="wrong" id="mc" />6 år</p>
                     <p><input type="radio" name="question2" value="wrong" id="mc" />8 år</p>
-                    <button class="next" onclick="" type="button">Næste</button>
+                    <button class="next" onclick="spørgsmål2()" type="button">Næste</button>
              </div>
              <div class="spørgsmål3">
                   <h2 class="spørgsmål">Hvem var primært i lejren?</h2>
                     <p><input type="radio" name="question3" value="wrong" id="mc" />Børn</p>
                     <p><input type="radio" name="question3" value="right" id="mc" />Børn, kvinder og gamle</p>
                     <p><input type="radio" name="question3" value="wrong" id="mc" />Alle</p>
-                    <button class="next" onclick="" type="button">Næste</button>
+                    <button class="next" onclick="spørgsmål3()" type="button">Næste</button>
              </div>
              <div class="spørgsmål4">
                     <h2 class="spørgsmål">Hvad skete der med lejren efter den sidste flygtning tog hjem?</h2>
                     <p><input type="radio" name="question4" value="right" id="mc" />Lejren blev nedlagt da Danmark manglede resourcer</p>
                     <p><input type="radio" name="question4" value="wrong" id="mc" />Danskerne brugte den til at huse de syge og skadet</p>
                     <p><input type="radio" name="question4" value="wrong" id="mc" />Den stod urørt i 10 år inden der blev taget en beslutning om hvad der skulle ske</p>
-                    <button class="next" onclick="" type="button">Næste</button>
+                    <button class="next" onclick="spørgsmål4()" type="button">Næste</button>
              </div>
              <div class="spørgsmål5">
                     <h2 class="spørgsmål">Hvad havde de ikke i lejren?</h2>
                     <p><input type="radio" name="question5" value="wrong" id="mc" />Teater</p>
                     <p><input type="radio" name="question5" value="wrong" id="mc" />Skole</p>
                     <p><input type="radio" name="question5" value="right" id="mc" />Lejligheder</p>
-                    <button class="next" onclick="" type="button">Næste</button>
+                    <button class="next" onclick="spørgsmål5()" type="button">Næste</button>
              </div>
              <div class="spørgsmål6">
                     <h2 class="spørgsmål">Hvor mange ligger der cirka på kirkegården?</h2>
                     <p><input type="radio" name="question6" value="right" id="mc" />1100</p>
                     <p><input type="radio" name="question6" value="wrong" id="mc" />1700</p>
                     <p><input type="radio" name="question6" value="wrong" id="mc" />2300</p>
-                    <button class="next" onclick="" type="button">Afslut</button>
+                    <button class="next" onclick="spørgsmål6()" type="button">Afslut</button>
              </div>
             </form>
              
@@ -92,7 +92,7 @@
                 <p id="number_correct"></p>
             </div>
             
-            <button class="tilbagepil" onclick="tilbagequiz" type="button">
+            <button class="tilbagepil" onclick="tilbagequiz()" type="button">
                  <img src="billeder/Tilbagepil-sort.png" alt="Tilbagepil">
              </button>
         </body>

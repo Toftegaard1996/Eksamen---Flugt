@@ -14,7 +14,7 @@
 .kort{
     width: 100%;
     position: absolute;
-    visibility: hidden;
+    
 }
 
 
@@ -27,7 +27,7 @@
     cursor: pointer;
     border-radius: 25px;
     font-size: 36px;
-    visibility: hidden;
+    
 }
 
 .knap2{
@@ -39,7 +39,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-size: 36px;
-    visibility: hidden;
+    
 }
 
 
@@ -53,7 +53,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-size: 36px;
-    visibility: hidden;
+    
 }
 
 .knap4{
@@ -65,7 +65,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-size: 36px;
-    visibility: hidden;
+    
 }
 
 
@@ -78,7 +78,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-size: 36px;
-    visibility: hidden;
+    
 }
 
 .knap6{
@@ -89,7 +89,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-size: 36px;
-    visibility: hidden;
+    
 }
 
 .knap7{
@@ -101,7 +101,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-size: 36px;
-    visibility: hidden;
+    
 }
 
 .knap8{
@@ -113,7 +113,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-size: 36px;
-    visibility: hidden;
+    
 }
 
 .knap9{
@@ -125,7 +125,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-size: 36px;
-    visibility: hidden;
+    
 }
 
 .knap10{
@@ -137,7 +137,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-size: 36px;
-    visibility: hidden;
+    
 }
 
 .knap11{
@@ -149,7 +149,6 @@
     border-radius: 25px;
     cursor: pointer;
     font-size: 36px;
-    visibility: hidden;
 }
 
 .knap12{
@@ -160,7 +159,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-size: 36px;
-    visibility: hidden;
+    
 }
 
 p{
@@ -202,12 +201,12 @@ input {
 
 .spørgsmål1{
     position: absolute;
-    visibility: hiddfen;
+    visibility: hidden;
 }
 
 .spørgsmål2{
     position: absolute;
-    visibility: hidfden;
+    visibility: hidden;
 }
 
 .spørgsmål3{
