@@ -46,6 +46,7 @@ function tilbage() {
 
 function tak() {
   let getTak =document.querySelector(".popup") .style.visibility="visible";
+    }
 
 /*index*/
 
