@@ -1,7 +1,7 @@
 body {
     background-color: #f5efdc;
     font-family: 'helvetica';
-    color: #8B4513;
+    color: black;
 
 }
 
@@ -247,10 +247,6 @@ body {
     font-size: 36px;
 }
 
-
-
-<<<<<<< HEAD
-=======
 .logo {
     margin-left: 24%;
     position: absolute;
@@ -339,4 +335,3 @@ input[type=submit]:hover {
   box-shadow: 10px 10px 5px #aaaaaa;
 }
 
->>>>>>> d941bd016e7b8b8493780d2bcdf698d6b2c7d6bd
