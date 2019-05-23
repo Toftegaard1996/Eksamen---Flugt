@@ -20,27 +20,38 @@ body {
     margin-top: -24%;
 }
 
-/* Billede af flagene */
-#flag{
-    margin-top: 85%;
-    margin-left: 0%;
-}
-
 .velkommen {
     position: absolute;
     margin-left: 7%;
     font-size: 420%;
-    margin-top: 25%;
+    margin-top: 15%;
 }
 
 .sprog {
     position: absolute;
-    margin-left: 30%;
-    margin-top: 55%;
+    margin-left: 27%;
+    margin-top: 40%;
     font-size: 350%;
 }
 
+.dansk{
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 70%;
+    box-shadow: 25px 20px #888888;
+}
 
+.engelsk{
+    width: 20%;
+    margin-left: 2%;
+    box-shadow: 25px 20px #888888;
+}
+
+.tysk{
+   width: 20%;
+    margin-left: 2%;
+    box-shadow: 25px 20px #888888;
+}
 
 
 /*Login-side*/
